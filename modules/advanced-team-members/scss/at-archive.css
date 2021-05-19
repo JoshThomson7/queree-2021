@@ -764,7 +764,7 @@ section.team__filters .team__search__form .input__search__text span {
   right: 10px;
   top: calc(50% - 9px);
   font-size: 18px;
-  color: #99d3d5;
+  color: #0e5526;
 }
 section.team__filters .team__search__form label {
   color: #9290a2;
@@ -831,7 +831,7 @@ section.team__filters .team__results .loading-overlay #spinner {
   transform: scale(2);
 }
 section.team__filters .team__results .loading-overlay #spinner path {
-  fill: #99d3d5;
+  fill: #0e5526;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap {
   display: flex;
@@ -860,7 +860,7 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   justify-content: center;
   align-items: center;
   border-radius: 3px;
-  background: #99d3d5;
+  background: #0e5526;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article a .team__overlay.member-join {
   background: #9290a2;
@@ -900,7 +900,7 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   bottom: 0px;
   width: 100%;
   background: rgba(241, 245, 247, 0.8);
-  color: #99d3d5;
+  color: #0e5526;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -924,7 +924,7 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   display: block;
   width: 2px;
   max-height: 60px;
-  background: #99d3d5;
+  background: #0e5526;
   margin-right: 10px;
   height: 40px;
   margin-left: 20px;
@@ -987,10 +987,10 @@ section.team__filters .team__results .team__content h2 {
   font-weight: 600;
 }
 section.team__filters .team__results .team__content h2 a {
-  color: #99d3d5;
+  color: #0e5526;
 }
 section.team__filters .team__results .team__content h2 a:hover {
-  color: #99d3d5;
+  color: #0e5526;
 }
 section.team__filters .team__results .team__content p {
   font-size: 0.85rem;
@@ -1024,7 +1024,7 @@ section.team__filters .team__results .not__found figure i {
 }
 section.team__filters .team__results .not__found h3 {
   font-size: 16px;
-  color: #99d3d5;
+  color: #0e5526;
   font-weight: 700;
   margin-bottom: 5px;
 }
