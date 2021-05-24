@@ -30,10 +30,10 @@
                         </ul><!-- header__social -->
 
                         <ul class="contact">
-                            <li>119 High Road</li>
-                            <li>East Finchley</li>
-                            <li>London</li>
-                            <li>N2 8AG</li>
+                            <li>Matthew House</li>
+                            <li>Gorey Village</li>
+                            <li>Jersey</li>
+                            <li>Channel Islands, JE3 9EP</li>
                         </ul>
 
                     <?php endif; ?>

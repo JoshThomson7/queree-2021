@@ -153,7 +153,7 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 {
   font-size: 0.85rem;
-  color: #848296;
+  color: #84888a;
   padding-bottom: 10px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 span {
@@ -273,12 +273,12 @@ body.blog .blog__post a .blog__post__content h5 {
 body.blog .blog__post a .blog__post__content h5 span {
   font-size: 0.7rem;
   padding-top: 10px;
-  color: #a09eae;
+  color: #9ea2a2;
   display: block;
 }
 body.blog .blog__post a .blog__post__content p {
   font-size: 0.8rem;
-  color: #9290a2;
+  color: #919596;
   line-height: 18px;
   margin: 0;
 }
@@ -326,7 +326,7 @@ body.blog .blog__sidebar article .widget__heading .widget__icon {
 body.blog .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #ecb457;
+  color: #30824b;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -349,15 +349,15 @@ body.blog .blog__sidebar article .widget__content ul li {
 body.blog .blog__sidebar article .widget__content ul li a {
   display: block;
   font-size: 16px;
-  border-bottom: 1px solid #9290a2;
+  border-bottom: 1px solid #919596;
   padding: 10px;
-  color: #9290a2;
+  color: #919596;
 }
 body.blog .blog__sidebar article .widget__content ul li a:hover {
-  color: #ecb457;
+  color: #30824b;
 }
 body.blog .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #ecb457;
+  color: #30824b;
   font-weight: 600;
 }
 body.blog .blog__sidebar article .widget__content .widget__box {
@@ -386,7 +386,7 @@ body.blog .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #ecb457;
+  background: #30824b;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -399,12 +399,12 @@ body.blog .blog__sidebar article .tagcloud a {
   padding: 5px 10px;
   color: #868896;
   border-radius: 10px;
-  border: 1px solid #9290a2;
+  border: 1px solid #919596;
   margin: 0 3px 3px 0;
 }
 body.blog .blog__sidebar article .tagcloud a:hover {
-  color: #ecb457;
-  border: 1px solid #ecb457;
+  color: #30824b;
+  border: 1px solid #30824b;
 }
 body.blog .blog__single {
   padding-right: 40px;
@@ -433,7 +433,7 @@ body.blog .blog__single article h5 {
 body.blog .blog__single article h5 span {
   display: block;
   font-size: 20px;
-  color: #9290a2;
+  color: #919596;
   margin-top: 10px;
 }
 body.blog .blog__single article h5 span i {
@@ -534,7 +534,7 @@ body.blog__single .blog__single article h5 {
 body.blog__single .blog__single article h5 span {
   display: block;
   font-size: 20px;
-  color: #9290a2;
+  color: #919596;
   margin-top: 10px;
 }
 body.blog__single .blog__single article h5 span i {
@@ -598,7 +598,7 @@ body.blog__archive .blog__sidebar article .widget__heading .widget__icon {
 body.blog__archive .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #ecb457;
+  color: #30824b;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -621,15 +621,15 @@ body.blog__archive .blog__sidebar article .widget__content ul li {
 body.blog__archive .blog__sidebar article .widget__content ul li a {
   display: block;
   font-size: 16px;
-  border-bottom: 1px solid #9290a2;
+  border-bottom: 1px solid #919596;
   padding: 10px;
-  color: #9290a2;
+  color: #919596;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li a:hover {
-  color: #ecb457;
+  color: #30824b;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #ecb457;
+  color: #30824b;
   font-weight: 600;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box {
@@ -658,7 +658,7 @@ body.blog__archive .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #ecb457;
+  background: #30824b;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -671,12 +671,12 @@ body.blog__archive .blog__sidebar article .tagcloud a {
   padding: 5px 10px;
   color: #868896;
   border-radius: 10px;
-  border: 1px solid #9290a2;
+  border: 1px solid #919596;
   margin: 0 3px 3px 0;
 }
 body.blog__archive .blog__sidebar article .tagcloud a:hover {
-  color: #ecb457;
-  border: 1px solid #ecb457;
+  color: #30824b;
+  border: 1px solid #30824b;
 }
 
 .blog__home .blog__sidebar {

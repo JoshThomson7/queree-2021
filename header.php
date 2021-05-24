@@ -40,8 +40,8 @@
                     <div class="header__cta">
 
                         <ul class="contact">
-                            <li><i class="fa fa-phone"></i><a href="tel:02084442233">020 8444 2233</a></li>
-                            <li><i class="fa fa-envelope"></i><a href="mailto:snrub@talktalk.net">Email Us</a></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:01534840400">01534 840 400</a></li>
+                            <li><i class="fa fa-envelope"></i><a href="mailto:info@quereeoptometrists.co.uk">Email Us</a></li>
                         </ul>
 
                         <div class="header__menu">

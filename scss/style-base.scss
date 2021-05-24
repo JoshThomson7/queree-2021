@@ -277,7 +277,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block;
-                    img { width: 88px; align-self:center; margin: 0 auto;
+                    img { width: 200px; align-self:center; margin: 0 auto;
                         @include breakpoint(papabear) { width: 120px;}
                     }
                 }
@@ -563,7 +563,7 @@ footer { padding: 0; position: relative;
         .subfooter__credits { display:flex; flex-direction: column; text-align: center; align-items: center;
 
             img{
-                width: 88px; margin-bottom: 20px;
+                width: 200px; margin-bottom: 20px;
             }
             
             p { font-size:14px; line-height:20px; color: $text;
