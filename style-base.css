@@ -28917,7 +28917,7 @@ header.header .header__main .header_logo_menu .logo a {
   display: block;
 }
 header.header .header__main .header_logo_menu .logo a img {
-  width: 200px;
+  width: 280px;
   align-self: center;
   margin: 0 auto;
 }
@@ -28975,11 +28975,12 @@ header.header .header__main .header__cta .header__menu ul li.button a:hover {
 }
 header.header .header__main .header__cta .header__menu ul li a {
   font-size: 15px;
-  color: #919596;
+  color: #5e6263;
   display: flex;
   align-items: center;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Museo 700";
 }
 header.header .header__main .header__cta .header__menu ul li a:hover {
   color: #30824b;
@@ -29010,7 +29011,7 @@ header.header .header__main .header__cta .header__menu ul li a i {
   }
 }
 header.header .header__main .header__cta .contact {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 @media (max-width: 1024px) {
   header.header .header__main .header__cta .contact {
@@ -29029,7 +29030,7 @@ header.header .header__main .header__cta .contact li i {
   font-size: 22px;
 }
 header.header .header__main .header__cta .contact li a {
-  color: #919596;
+  color: #5e6263;
   font-family: "Museo 300", sans-serif;
 }
 header.header .header__main .header__cta .contact li a:hover {

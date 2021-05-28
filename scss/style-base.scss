@@ -277,7 +277,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             .logo {
     
                 a { display:block;
-                    img { width: 200px; align-self:center; margin: 0 auto;
+                    img { width: 280px; align-self:center; margin: 0 auto;
                         @include breakpoint(papabear) { width: 120px;}
                     }
                 }
@@ -307,7 +307,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
     
-                        a { font-size: 15px; color: $text; display: flex; align-items: center; text-transform: uppercase; text-align: center;
+                        a { font-size: 15px; color: darken($text, 20%); display: flex; align-items: center; text-transform: uppercase; text-align: center; font-family: $boldFont;
 
                             &:hover{
                                 color: $secondary;
@@ -331,7 +331,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
 
             .contact{
-                margin-bottom: 15px;
+                margin-bottom: 25px;
                 @include breakpoint(papabear) { margin-right: 30px; margin-bottom: 0;}
                 @include breakpoint(teenbear) {display: none;}
 
@@ -339,7 +339,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
 
                     i{color: $primary; margin-right: 7px; font-size: 22px;}
 
-                    a{ color: $text; font-family: $primaryFont;
+                    a{ color: darken($text, 20%); font-family: $primaryFont;
                         &:hover{
                             color: $secondary;
 
