@@ -15,7 +15,7 @@ Feature
     .fc_feature_wrapper { display:flex; flex-wrap:wrap; align-items: center; position: relative;
 
         .feature__image,
-        .feature__text { width:percentage(1/2);
+        .feature__text { //width:percentage(1/2);
 
             .feature__action{
                .arrow__link{
@@ -28,7 +28,7 @@ Feature
             }
         }
 
-        .feature__image { position:relative; overflow:hidden; padding-right: 25px;
+        .feature__image { position:relative; overflow:hidden; padding-right: 25px; width: 40%;
 
             @include breakpoint(papabear) { margin-bottom:20px; width:100%; padding-right: 0;}
 
@@ -53,7 +53,8 @@ Feature
             }
         }
 
-        .feature__text { padding-left: 25px;
+        .feature__text { padding-left: 25px; width: 60%;
+
             @include breakpoint(papabear) { width:100%; padding-left: 0;}
 
             h3 { font-size: 30px; line-height: 36px; font-family: $boldFont;}
