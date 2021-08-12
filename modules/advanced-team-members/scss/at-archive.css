@@ -671,7 +671,7 @@ section.team__filters .team__search__form {
   }
 }
 section.team__filters .team__search__form input[type=text] {
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
   border: 1px solid #e1e9ee;
   padding: 16px 50px 13px 15px;
   font-size: 16px;
@@ -695,7 +695,7 @@ section.team__filters .team__search__form input[type=text]:focus {
 }
 section.team__filters .team__search__form .select2-container {
   padding: 0;
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
   border: 1px solid #e1e9ee;
   font-size: 16px;
   font-weight: 300;
@@ -748,7 +748,7 @@ section.team__filters .team__search__form .select2-container .select2-search__fi
   margin: 0;
   height: auto;
   padding: 0;
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
   font-weight: 600;
 }
 section.team__filters .team__search__form .input__search__text {

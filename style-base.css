@@ -17197,6 +17197,18 @@ table {
   font-style: normal;
 }
 @font-face {
+  font-family: "Constantia";
+  src: url("fonts/helvetica/Constantia-Font.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calisto";
+  src: url("fonts/helvetica/Calisto-MT_9070.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Brygada Bold";
   src: url("fonts/brygada/Brygada-Bold.woff2") format("woff2"), url("fonts/brygada/Brygada-Bold.woff") format("woff");
   font-weight: normal;
@@ -24013,7 +24025,7 @@ section.banners .banner__caption h2 {
   font-weight: normal;
   padding: 0 0 40px;
   line-height: 64px;
-  font-family: "Museo 700";
+  font-family: "Calisto";
 }
 @media (max-width: 900px) {
   section.banners .banner__caption h2 {
@@ -24893,10 +24905,10 @@ Flexible Content
 .flexible__content .section__heading h2 {
   font-size: 30px;
   text-transform: none;
-  color: #88947c;
+  color: #6f7a63;
   margin: 0;
   display: flex;
-  font-family: "Museo 700";
+  font-family: "Calisto";
 }
 .flexible__content .section__heading p {
   margin: 15px 0 0;
@@ -24980,8 +24992,8 @@ Flexible Content
 .flexible__content h1, .flexible__content h2, .flexible__content h3, .flexible__content h4, .flexible__content h5, .flexible__content h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-family: "Museo 300", sans-serif;
-  color: #a5b792;
+  font-family: "Calisto";
+  color: #8ca373;
 }
 .flexible__content h2 {
   line-height: 38px;
@@ -25005,7 +25017,7 @@ Flexible Content
 }
 .flexible__content p {
   font-size: 17px;
-  color: #919596;
+  color: #777c7d;
   margin-bottom: 10px;
   line-height: 20px;
 }
@@ -25221,7 +25233,7 @@ Flexible Content
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text h3 {
   font-size: 30px;
   line-height: 36px;
-  font-family: "Museo 700";
+  font-family: "Calisto";
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text p {
   font-size: 16px;
@@ -28495,7 +28507,7 @@ Flexible Content
 
 ------------------------------------------- */
 body {
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
   font-size: 16px;
   font-weight: 500;
   color: #919596;
@@ -28767,7 +28779,7 @@ a.button span, button.button span {
   text-align: center;
   color: #FFFFFE;
   line-height: 16px;
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
 }
 a.button.primary, button.button.primary {
   background: #88947c;
@@ -28891,7 +28903,7 @@ header.header .header__main .burger__menu a {
   display: flex;
   align-items: center;
   color: #88947c;
-  font-family: "Museo 700";
+  font-family: "Calisto";
   font-size: 16px;
 }
 header.header .header__main .oc__nav__trigger a:hover,
@@ -28979,7 +28991,7 @@ header.header .header__main .header__cta .header__menu ul li a {
   align-items: center;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Museo 700";
+  font-family: "Calisto";
 }
 header.header .header__main .header__cta .header__menu ul li a:hover {
   color: #a5b792;
@@ -29030,7 +29042,7 @@ header.header .header__main .header__cta .contact li i {
 }
 header.header .header__main .header__cta .contact li a {
   color: #5e6263;
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
 }
 header.header .header__main .header__cta .contact li a:hover {
   color: #a5b792;
@@ -29193,7 +29205,7 @@ section.circle__gradient__left {
   border: 1px solid #efefef;
 }
 .footer-blog-posts .max__width .blog-posts-loop .footer_blog_box .content .title {
-  font-family: "Museo 700";
+  font-family: "Calisto";
   color: #88947c;
 }
 .footer-blog-posts .max__width .blog-posts-loop .footer_blog_box .content .excerpt {
@@ -29207,7 +29219,7 @@ section.circle__gradient__left {
   color: #a5b792;
   text-transform: uppercase;
   margin-top: 20px;
-  font-family: "Museo 700";
+  font-family: "Calisto";
 }
 .footer-blog-posts .max__width .blog-posts-loop .footer_blog_box .content .blog_button i {
   color: #a5b792;
@@ -29677,7 +29689,7 @@ footer .subfooter .subfooter__credits p.credit a {
 .mc-wrapper input[type=button],
 .mc-wrapper button {
   margin-top: 10px;
-  font-family: "Museo 300", sans-serif;
+  font-family: "Calisto";
   padding: 14px 60px 9px;
   font-size: 20px;
   font-size: 1.25rem;
