@@ -278,7 +278,8 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
     
                 a { display:block;
                     img { width: 280px; align-self:center; margin: 0 auto;
-                        @include breakpoint(papabear) { width: 120px;}
+                        @include breakpoint(papabear) { width: 200px;}
+                        @include breakpoint(mamabear) { width: 150px;}
                     }
                 }
             }
