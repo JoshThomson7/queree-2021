@@ -70,7 +70,6 @@ body.blog .blog-results-category h4 {
   font-size: 1.35rem;
   color: #88947c;
   margin-bottom: 20px;
-  font-weight: 600;
 }
 body.blog .blog-results-category h4 a {
   color: #88947c;
@@ -163,7 +162,6 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h3 {
   font-size: 1.3rem;
-  font-weight: 600;
   line-height: 1.4;
   color: #88947c;
   margin: 0 0 10px;

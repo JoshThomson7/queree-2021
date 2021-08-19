@@ -8,7 +8,7 @@
     article { width: percentage(1/2); padding: 40px;
         @include breakpoint(mamabear) { width: 100%; padding: 30px;}
 
-        p { font-size: 18px; line-height: 26px; margin-bottom: 20px; font-weight: 200;}
+        p { font-size: 18px; line-height: 26px; margin-bottom: 20px;}
 
         ul { padding-left: 10px;
             li { list-style: none; display: flex; align-items: flex-start; font-size: 18px; padding-bottom: 20px; margin: 0;
@@ -23,7 +23,7 @@
         &.blue,
         &.darkblue {
             h1, h2, h3, h4, h5, h6 { color: #fff}
-            p, li { font-size: 20px; line-height: 28px; font-weight: 400; color: #fff;}
+            p, li { font-size: 20px; line-height: 28px; color: #fff;}
         }
     }
 }

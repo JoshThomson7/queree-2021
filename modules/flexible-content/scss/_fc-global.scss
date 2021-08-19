@@ -36,7 +36,7 @@
 
     p { margin: 15px 0 0; font-size: 1rem; line-height: 25px;
         @include breakpoint(teenbear){padding-left: 0;}
-        strong { font-weight: 800;}
+        strong { font-family: $boldFont;}
     }
 
     &.centred { align-items: center; max-width: 800px; margin: 0 auto;

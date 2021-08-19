@@ -28,8 +28,8 @@
                     }
 
                     &__content { margin: 0 15px 10px; padding: 15px; position: relative; z-index: 5;
-                        h3 { font-size: 1.1rem; color: $primary; margin-bottom: 15px; line-height: 1.4; font-weight: 600;
-                            span { font-size: 12px; color: $text; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 5px;
+                        h3 { font-size: 1.1rem; color: $primary; margin-bottom: 15px; line-height: 1.4; 
+                            span { font-size: 12px; color: $text;  text-transform: uppercase; display: block; margin-bottom: 5px;
                                 a { color: $secondary;}
                             }
                             a { color: $primary;}
@@ -37,11 +37,11 @@
 
                         p { font-size: 0.85rem; color: $text; line-height: 1.4; margin-bottom: 0;}
 
-                        .blog__meta { font-size:1rem; font-weight: 600; color: $text; display: flex; align-items: center; padding: 25px 0 10px; justify-content: space-between; text-transform: uppercase;
+                        .blog__meta { font-size:1rem;  color: $text; display: flex; align-items: center; padding: 25px 0 10px; justify-content: space-between; text-transform: uppercase;
                             
-                            a { color: $secondary; font-size: 14px; font-weight: 800;}
+                            a { color: $secondary; font-size: 14px; }
 
-                            date { margin-right: 20px; font-size: 14px; color: $text; font-weight: 600;}
+                            date { margin-right: 20px; font-size: 14px; color: $text; }
                         }
                     }
                 }
@@ -75,12 +75,12 @@
                                             span.team-more { width:165px; background:#FFF; color:$text; padding:8px 20px;}
                                         }
                     
-                                        span.team__more { padding:10px 0; color:$secondary; text-align:center; font-size: 22px; display:block; font-weight: 600;margin-bottom: 40px;}
+                                        span.team__more { padding:10px 0; color:$secondary; text-align:center; font-size: 22px; display:block; margin-bottom: 40px;}
                                     }
                                 }
                     
-                                h5 { padding: 20px 0; text-align: center; margin-bottom: 0; font-size: 16px; font-weight: 600;position: absolute; bottom: 0px; width: 100%; background: rgba($lightgrey, 0.8); color: $primary; display: flex; align-items: center; justify-content: flex-start; line-height: 16px;
-                                    span { font-size: 16px; color: white; display: block; line-height: 16px; font-weight: 600;}
+                                h5 { padding: 20px 0; text-align: center; margin-bottom: 0; font-size: 16px; position: absolute; bottom: 0px; width: 100%; background: rgba($lightgrey, 0.8); color: $primary; display: flex; align-items: center; justify-content: flex-start; line-height: 16px;
+                                    span { font-size: 16px; color: white; display: block; line-height: 16px; }
                     
                                     &:before{
                                         content: "";display: block;width: 2px;max-height: 60px;background: $primary;margin-right: 10px;height: 40px; margin-left: 20px;
@@ -101,15 +101,15 @@
                     }
 
                     .team__content { padding: 20px 10px 0; text-align: center; width: 100%;
-                        h5 { font-size: 1.05rem; color: $white; text-transform: uppercase; margin-bottom: 5px; line-height: normal; font-weight: 500;}
-                        h2 { font-size: 1.2rem; color: $secondary; margin-bottom: 20px; line-height: normal; font-weight: 600;
+                        h5 { font-size: 1.05rem; color: $white; text-transform: uppercase; margin-bottom: 5px; line-height: normal; }
+                        h2 { font-size: 1.2rem; color: $secondary; margin-bottom: 20px; line-height: normal; 
                             a { color: $primary;
                                 &:hover { color: $primary;}
                             }
                         }
                         p { font-size: 0.85rem; color: $white; line-height: 1.5; padding: 0 20px 20px; width: 100%; margin-bottom: 0;}
 
-                        .button{ border-radius: 96px; margin-bottom: 20px; display: inline-block; font-weight: 800; padding: 15px 20px; }
+                        .button{ border-radius: 96px; margin-bottom: 20px; display: inline-block;  padding: 15px 20px; }
                     }
                 }
 
@@ -135,16 +135,16 @@
                                             span.team-more { width:165px; background:#FFF; color:$text; padding:8px 20px;}
                                         }
                     
-                                        span.team__more { padding:10px 0; color:$secondary; text-align:center; font-size: 22px; display:block; font-weight: 600;margin-bottom: 40px;}
+                                        span.team__more { padding:10px 0; color:$secondary; text-align:center; font-size: 22px; display:block; margin-bottom: 40px;}
                                     }
                                 }
                     
-                                h5 { padding: 20px 0; text-align: center; margin-bottom: 0; font-size: 16px; font-weight: 600;position: absolute; bottom: 0px; width: 100%; background: rgba($lightgrey, 0.8); color: $primary; display: flex; align-items: center; justify-content: flex-start; line-height: 16px;
+                                h5 { padding: 20px 0; text-align: center; margin-bottom: 0; font-size: 16px; position: absolute; bottom: 0px; width: 100%; background: rgba($lightgrey, 0.8); color: $primary; display: flex; align-items: center; justify-content: flex-start; line-height: 16px;
                                     @include breakpoint(teenbear){
                                         padding: 10px 0; font-size: 15px;
                                     }
 
-                                    span { font-size: 16px; color: white; display: block; line-height: 16px; font-weight: 600;}
+                                    span { font-size: 16px; color: white; display: block; line-height: 16px; }
                     
                                     &:before{
                                         content: "";display: block;width: 2px;max-height: 60px;background: $primary;margin-right: 10px;height: 40px; margin-left: 20px;
@@ -165,15 +165,15 @@
                     }
 
                     .team__content { padding: 20px 10px 0; text-align: center; width: 100%;
-                        h5 { font-size: 1.05rem; color: $white; text-transform: uppercase; margin-bottom: 5px; line-height: normal; font-weight: 500;}
-                        h2 { font-size: 1.2rem; color: $secondary; margin-bottom: 20px; line-height: normal; font-weight: 600;
+                        h5 { font-size: 1.05rem; color: $white; text-transform: uppercase; margin-bottom: 5px; line-height: normal; }
+                        h2 { font-size: 1.2rem; color: $secondary; margin-bottom: 20px; line-height: normal; 
                             a { color: $primary;
                                 &:hover { color: $primary;}
                             }
                         }
                         p { font-size: 0.85rem; color: $white; line-height: 1.5; padding: 0 20px 20px; width: 100%; margin-bottom: 0;}
 
-                        .button{ border-radius: 96px; margin-bottom: 20px; display: inline-block; font-weight: 800; padding: 15px 20px; }
+                        .button{ border-radius: 96px; margin-bottom: 20px; display: inline-block;  padding: 15px 20px; }
                     }
                 }
 
@@ -203,10 +203,10 @@
                             background: -webkit-linear-gradient(top, rgba($primary,0) 0%,rgba($primary,0.22) 12%,rgba($primary,1) 85%); /* Chrome10-25,Safari5.1-6 */
                             background: linear-gradient(to bottom, rgba($primary,0) 0%,rgba($primary,0.22) 12%,rgba($primary,1) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-                            h4 { font-size: 14px; color: $text; text-transform: uppercase; margin: 0; font-weight: 600; display: flex; flex-direction: column; align-items: center;
+                            h4 { font-size: 14px; color: $text; text-transform: uppercase; margin: 0;  display: flex; flex-direction: column; align-items: center;
                                 &:after { content:""; display: block; width: 100%; max-width: 100px; height: 2px; background: $secondary; margin: 5px 0;}
                             }
-                            h3 { font-size: 28px; color: $primary; margin-bottom: 15px; line-height: 24px; font-weight: 600; padding: 10px 0;}
+                            h3 { font-size: 28px; color: $primary; margin-bottom: 15px; line-height: 24px;  padding: 10px 0;}
                             p { font-size: 16px; color: $text; line-height: 24px; margin-bottom: 0;}
                         }
 
@@ -219,7 +219,7 @@
                 &.feature {
                     a { display: flex; height: 300px; background-size: cover; background-position: top center; background-repeat: no-repeat; border-radius: 5px; overflow: hidden;
                         .feat__overlay { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; width: 100%; min-height: 100%; text-align: center; opacity: 1; transition:all .4s ease; height: inherit;
-                            h3 { font-size:  1.2rem; font-weight: 600; color: $white; padding: 10px 0; margin: 0; width: 100%;
+                            h3 { font-size:  1.2rem;  color: $white; padding: 10px 0; margin: 0; width: 100%;
                                 span,i { font-size: 35px; line-height: 75px; color: $white; width: 75px; height: 75px; box-sizing: border-box; }
                             }
                             h4 { font-size: 1.1rem; color: $secondary; margin: 0;}
@@ -243,7 +243,7 @@
                            
                             span{ font-size: 35px; line-height: 75px; background: $secondary; color: $primary; padding-left: 5px; border-radius: 50%; width: 75px; height: 75px; box-sizing: border-box;}
                             
-                            h3 { font-size: 1.1rem; font-weight: 600; color: #fff; padding: 10px 0; margin: 10px 0 20px; width: 100%;}
+                            h3 { font-size: 1.1rem;  color: #fff; padding: 10px 0; margin: 10px 0 20px; width: 100%;}
                             h4 { font-size: 1rem; color: #fff; margin: 0;}
                         }
 

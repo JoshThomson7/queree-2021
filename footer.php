@@ -16,6 +16,26 @@
 
                 <?php endwhile; ?>
 
+                <article class="footer__menu">
+                    <h5>Find Us <span class="ion-ios-plus-empty"></span></h5>
+
+                    <ul class="contact">
+                        <li>Matthew House,</li>
+                        <li>Gorey Village,</li>
+                        <li>Jersey,</li>
+                        <li>Channel Islands, JE3 9EP</li>
+                    </ul>
+                </article>
+
+                <article class="footer__menu">
+                    <h5>Contact Us <span class="ion-ios-plus-empty"></span></h5>
+
+                    <ul>
+                        <li><a href="tel:01534840400">01534 840 400</a></li>
+                        <li><a href="mailto:info@quereeoptomoetrists.co.uk">info@quereeoptomoetrists.co.uk</a></li>
+                    </ul>
+                </article>
+
                 <article class="footer__menu social">
                    <h5>Follow Us <span class="ion-ios-plus-empty"></span></h5>
                     <?php if(get_field('header_social', 'options')): ?>
@@ -28,13 +48,6 @@
                                 </li>
                             <?php endwhile; ?>
                         </ul><!-- header__social -->
-
-                        <ul class="contact">
-                            <li>Matthew House</li>
-                            <li>Gorey Village</li>
-                            <li>Jersey</li>
-                            <li>Channel Islands, JE3 9EP</li>
-                        </ul>
 
                     <?php endif; ?>
 

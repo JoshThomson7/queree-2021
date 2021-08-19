@@ -16,20 +16,20 @@
 .tooltipster-sidetip.tooltipster-punk.tooltipster-top .tooltipster-arrow-border { border-top-color: $lightgrey; box-shadow: 0 3px 15px rgba($tertiary, 0.3);}
 
 #tooltip_tiered_pricing {
-    h3 { font-size: 17px; color: $text; margin: 10px 0 20px; font-weight: 800;}
+    h3 { font-size: 17px; color: $text; margin: 10px 0 20px; }
 
     table {
         tr { border-bottom: 1px darken($lightgrey, 5%) solid;
             &:last-child { border-bottom: none;}
         }
 
-        th { font-weight: 800; color: $primary}
+        th {  color: $primary}
         th, td { text-align: left; padding: 5px;
-            strong { font-weight: 800;}
+            strong { }
         }
     }
 
     p { margin: 10px 0; background: darken($lightgrey, 5%); padding: 10px; border-radius: 4px; color: $text;
-        strong { font-weight: 700;}
+        strong { }
     }
 }

@@ -55,7 +55,7 @@ nav.header__nav { position: relative; display: flex; align-items: center; justif
         }
     }
 
-    a.nav__button { font-weight: 900; display:flex; background: #fff; transition-duration: .4s; padding: 12px 20px 10px; border-radius: 50px; box-shadow: 0 3px 15px rgba(black, 0.3); font-size: 12px; text-align:center; text-transform: uppercase; color: $primary; margin-left: 20px;
+    a.nav__button {  display:flex; background: #fff; transition-duration: .4s; padding: 12px 20px 10px; border-radius: 50px; box-shadow: 0 3px 15px rgba(black, 0.3); font-size: 12px; text-align:center; text-transform: uppercase; color: $primary; margin-left: 20px;
 
         @include breakpoint(grandpabear) { padding: 12px 15px 10px; font-size: 11px;}
         @include breakpoint(sisterbear) { min-width: 78px;}

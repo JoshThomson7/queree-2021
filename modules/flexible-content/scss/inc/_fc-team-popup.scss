@@ -82,7 +82,7 @@ Team Pop-up
         }
 
         .team__popup_name{
-            h3 { font-size: 28px; color:$primary; font-weight: 600; margin:0 0 10px; display: flex;
+            h3 { font-size: 28px; color:$primary;  margin:0 0 10px; display: flex;
     
                 &:before{
                     content: "";display: block;width: 2px;max-height: 60px;background: #c2d217;margin-right: 10px;height: 40px; margin-left: -10px;

@@ -64,7 +64,7 @@ section.banners { position: relative; overflow: hidden;
                 @include breakpoint(mamabear) { flex-direction: column; align-self: auto; width: 100%; padding: 0;}
 
                 a,
-                article { display: flex; justify-content: center; align-items: center; padding: 6px; border-right: 1px rgba(255,255,255,0.5) solid; color: #fff; font-weight: 600; width: 100%; text-align: center;
+                article { display: flex; justify-content: center; align-items: center; padding: 6px; border-right: 1px rgba(255,255,255,0.5) solid; color: #fff;  width: 100%; text-align: center;
                     @include breakpoint(mamabear) { border-right: none; border-bottom: 1px rgba(255,255,255,0.5) solid; padding: 10px 0;}
                 }
 

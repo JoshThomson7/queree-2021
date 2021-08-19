@@ -149,7 +149,7 @@
             }
         }
 
-        &:checked + #{$element} { color: $primary; font-weight: 700;}
+        &:checked + #{$element} { color: $primary; }
         &:checked + #{$element}:before { content: "#{$icon_hover}"; font-weight: bold; color: $secondary} // checked icon
         &:checked + #{$element}:before { letter-spacing:10px; } // allow space for check mark
 

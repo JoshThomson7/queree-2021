@@ -5,7 +5,7 @@
 .fc_buttons {
 
     .buttons__wrap { display: flex; align-items: center;
-        a { display: block; padding: 18px 40px 16px; background: $primary; color: #fff; font-size: 14px; font-weight: 800; text-transform: uppercase; border-radius: 5px;
+        a { display: block; padding: 18px 40px 16px; background: $primary; color: #fff; font-size: 14px; text-transform: uppercase; border-radius: 5px;
             &:hover { background: $secondary;}
         }
 

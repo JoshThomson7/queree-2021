@@ -85,7 +85,7 @@
 
             .circle__content { position: absolute; top: 0; left:0; width: 100%; height: 100%; padding: 20px; justify-content: center; align-items: center; transition: all .8s ease; padding: 0 10px; display: flex; flex-direction: column; height: 100%;
 
-                h3 { font-size: 1.30rem; margin-bottom: 10px; line-height: 1.4; font-weight: 600; color: $primary; text-align: center; text-transform: uppercase;
+                h3 { font-size: 1.30rem; margin-bottom: 10px; line-height: 1.4;  color: $primary; text-align: center; text-transform: uppercase;
                 
                     @include breakpoint(cousinbear){font-size: 0.85rem;}
 

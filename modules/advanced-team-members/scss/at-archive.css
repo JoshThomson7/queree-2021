@@ -680,7 +680,6 @@ section.team__filters .team__search__form input[type=text] {
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
-  font-weight: 600;
   background: #fff;
   transition: 0.2s ease-out all;
   min-width: 300px;
@@ -703,7 +702,6 @@ section.team__filters .team__search__form .select2-container {
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
-  font-weight: 600;
   background: #fff;
   transition: 0.2s ease-out all;
   min-width: 300px;
@@ -749,7 +747,6 @@ section.team__filters .team__search__form .select2-container .select2-search__fi
   height: auto;
   padding: 0;
   font-family: "Calisto";
-  font-weight: 600;
 }
 section.team__filters .team__search__form .input__search__text {
   position: relative;
@@ -770,7 +767,6 @@ section.team__filters .team__search__form label {
   color: #5e6263;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 600;
 }
 @media (max-width: 1024px) {
   section.team__filters .team__search__form label {
@@ -882,7 +878,6 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   text-align: center;
   font-size: 22px;
   display: block;
-  font-weight: 600;
   margin-bottom: 40px;
 }
 @media (max-width: 625px) {
@@ -895,7 +890,6 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   text-align: center;
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 600;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -917,7 +911,6 @@ section.team__filters .team__results .masonry__item__wrapper .team__wrap article
   color: white;
   display: block;
   line-height: 16px;
-  font-weight: 600;
 }
 section.team__filters .team__results .masonry__item__wrapper .team__wrap article h5:before {
   content: "";
@@ -977,14 +970,12 @@ section.team__filters .team__results .team__content h5 {
   text-transform: uppercase;
   margin-bottom: 5px;
   line-height: normal;
-  font-weight: 500;
 }
 section.team__filters .team__results .team__content h2 {
   font-size: 1.2rem;
   color: #a5b792;
   margin-bottom: 20px;
   line-height: normal;
-  font-weight: 600;
 }
 section.team__filters .team__results .team__content h2 a {
   color: #88947c;
@@ -1004,7 +995,7 @@ section.team__filters .team__results .team__content .button {
   border-radius: 96px;
   margin-bottom: 20px;
   display: inline-block;
-  font-weight: 800;
+  
   padding: 15px 20px;
 }
 section.team__filters .team__results .not__found {
@@ -1025,7 +1016,7 @@ section.team__filters .team__results .not__found figure i {
 section.team__filters .team__results .not__found h3 {
   font-size: 16px;
   color: #88947c;
-  font-weight: 700;
+  
   margin-bottom: 5px;
 }
 section.team__filters .team__results .not__found p {
