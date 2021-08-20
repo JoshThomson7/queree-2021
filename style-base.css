@@ -24866,7 +24866,6 @@ Flexible Content
   display: flex;
   flex-direction: column;
   padding: 0 0 20px 0;
-  max-width: 550px;
 }
 .flexible__content .section__heading h2 {
   font-size: 30px;
@@ -24891,7 +24890,6 @@ Flexible Content
 }
 .flexible__content .section__heading.centred {
   align-items: center;
-  max-width: 800px;
   margin: 0 auto;
 }
 .flexible__content .section__heading.centred h2:after {
@@ -24982,7 +24980,7 @@ Flexible Content
   font-size: 18px;
 }
 .flexible__content p {
-  font-size: 16px;
+  font-size: 17px;
   color: #2c2e2f;
   margin-bottom: 10px;
   line-height: 26px;
@@ -25202,7 +25200,7 @@ Flexible Content
   font-family: "Calisto";
 }
 .flexible__content .fc_feature .fc_feature_wrapper .feature__text p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 26px;
   margin-bottom: 20px;
 }
@@ -26708,7 +26706,7 @@ Flexible Content
 }
 .flexible__content .fc_grid_boxes .grid__boxes__wrapper article.overlay .grid__box__content p {
   max-width: 335px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -27071,14 +27069,14 @@ Flexible Content
   transition: all 0.3s ease;
 }
 .flexible__content .fc_feature_boxes_wrapper article .fc__feature__box__inner p {
-  font-size: 16px;
+  font-size: 17px;
   color: #5e6263;
   margin-bottom: 30px;
   line-height: 26px;
   margin-bottom: 20px;
 }
 .flexible__content .fc_feature_boxes_wrapper article .fc__feature__box__inner a.fom {
-  font-size: 16px;
+  font-size: 17px;
   color: #88947c;
   display: flex;
   align-self: flex-end;
@@ -27209,14 +27207,14 @@ Flexible Content
   color: #bbc2b4;
 }
 .flexible__content .fc_feature_boxes_persona_wrapper article .fc__feature__box__inner p {
-  font-size: 16px;
+  font-size: 17px;
   color: #88947c;
   margin-bottom: 0;
   line-height: 26px;
   text-align: center;
 }
 .flexible__content .fc_feature_boxes_persona_wrapper article .fc__feature__box__inner a.fom {
-  font-size: 16px;
+  font-size: 17px;
   color: #88947c;
   display: flex;
   align-self: flex-end;
@@ -28424,7 +28422,7 @@ Flexible Content
 ------------------------------------------- */
 body {
   font-family: "Calisto";
-  font-size: 16px;
+  font-size: 17px;
   color: #5e6263;
   overflow-x: hidden;
 }
@@ -29222,7 +29220,7 @@ footer .footer__menus .max__width article {
 footer .footer__menus .max__width article h5 {
   font-size: 26px;
   color: #FFFFFE;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 @media (max-width: 1024px) {
   footer .footer__menus .max__width article h5 {
@@ -29258,6 +29256,7 @@ footer .footer__menus .max__width article ul li {
   color: #FFFFFE;
   display: flex;
   font-size: 16px;
+  align-items: center;
 }
 @media (max-width: 1024px) {
   footer .footer__menus .max__width article ul li {
@@ -29265,15 +29264,12 @@ footer .footer__menus .max__width article ul li {
   }
 }
 footer .footer__menus .max__width article ul li i {
-  font-size: 24px;
+  font-size: 20px;
   color: #FFFFFE;
   width: 22px;
   display: flex;
   justify-content: center;
   margin: 0px 15px 0 0;
-}
-footer .footer__menus .max__width article ul li i:hover {
-  color: #a5b792;
 }
 footer .footer__menus .max__width article ul li img {
   width: 140px;
@@ -29308,6 +29304,9 @@ footer .footer__menus .max__width article.social {
 footer .footer__menus .max__width article.social .social-wrapper li {
   display: inline;
   float: left;
+}
+footer .footer__menus .max__width article.social .social-wrapper li i {
+  font-size: 28px;
 }
 footer .footer__menus .max__width article.social .contact {
   margin-top: 20px;

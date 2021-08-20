@@ -535,7 +535,7 @@ footer { padding: 0; position: relative;
                 
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
-                h5 { font-size: 26px; color: $white; padding-bottom:20px;
+                h5 { font-size: 26px; color: $white; padding-bottom:30px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
 
                     span { display:none; float:right; font-size:30px; position:relative; top:-6px;
@@ -547,14 +547,10 @@ footer { padding: 0; position: relative;
                 ul { margin:0; padding:0;
                     @include breakpoint(papabear) { font-size:16px; padding-bottom:20px;}
 
-                    li { list-style:none; padding-bottom:10px; color: $white; display: flex; font-size: 16px;
+                    li { list-style:none; padding-bottom:10px; color: $white; display: flex; font-size: 16px; align-items: center;
                         @include breakpoint(papabear) { padding-bottom:10px;}
 
-                        i { font-size: 24px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;
-                            &:hover{
-                                color: $secondary;
-                            }
-                        }
+                        i { font-size: 20px; color: $white; width: 22px; display: flex; justify-content: center; margin: 0px 15px 0 0;}
 
                         img { width: 140px; margin-right: 10px;}
 
@@ -574,7 +570,9 @@ footer { padding: 0; position: relative;
                     @include breakpoint(papabear) { display: initial;}
 
                     .social-wrapper{
-                        li{ display: inline; float: left;}
+                        li{ display: inline; float: left;
+                            i{font-size: 28px;}
+                        }
                     }
 
                     .contact{

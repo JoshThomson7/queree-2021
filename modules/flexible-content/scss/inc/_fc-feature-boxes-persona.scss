@@ -42,11 +42,11 @@
 
             }
 
-            p { font-size: 16px; color: $primary; margin-bottom: 0;  line-height: 26px; text-align: center;
+            p { font-size: 17px; color: $primary; margin-bottom: 0;  line-height: 26px; text-align: center;
                 strong { }
             }
 
-            a.fom { font-size: 16px;  color: $primary; display: flex; align-self: flex-end; margin-top: auto;
+            a.fom { font-size: 17px;  color: $primary; display: flex; align-self: flex-end; margin-top: auto;
                 i { margin-left: 10px; position: relative; top: 1px;}
 
                 &:hover { color: lighten($primary, 20%);}

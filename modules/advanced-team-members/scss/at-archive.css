@@ -995,7 +995,6 @@ section.team__filters .team__results .team__content .button {
   border-radius: 96px;
   margin-bottom: 20px;
   display: inline-block;
-  
   padding: 15px 20px;
 }
 section.team__filters .team__results .not__found {
@@ -1016,7 +1015,6 @@ section.team__filters .team__results .not__found figure i {
 section.team__filters .team__results .not__found h3 {
   font-size: 16px;
   color: #88947c;
-  
   margin-bottom: 5px;
 }
 section.team__filters .team__results .not__found p {

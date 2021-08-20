@@ -31,8 +31,8 @@
                     <h5>Contact Us <span class="ion-ios-plus-empty"></span></h5>
 
                     <ul>
-                        <li><a href="tel:01534840400">01534 840 400</a></li>
-                        <li><a href="mailto:info@quereeoptomoetrists.co.uk">info@quereeoptomoetrists.co.uk</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:01534840400">01534 840 400</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:info@quereeoptometrists.co.uk">info@quereeoptometrists.co.uk</a></li>
                     </ul>
                 </article>
 

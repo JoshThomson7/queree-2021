@@ -30,7 +30,7 @@
     }
 }
 
-.section__heading { display: flex; flex-direction: column; padding: 0 0 20px 0; max-width: 550px;
+.section__heading { display: flex; flex-direction: column; padding: 0 0 20px 0;
 
     h2 { font-size: 30px; text-transform: none; color: darken($primary, 10%); margin: 0; display: flex; font-family: $boldFont;}
 
@@ -39,7 +39,7 @@
         strong { font-family: $boldFont;}
     }
 
-    &.centred { align-items: center; max-width: 800px; margin: 0 auto;
+    &.centred { align-items: center; margin: 0 auto;
         h2 { 
             &:after { margin: 20px auto;}
         }
