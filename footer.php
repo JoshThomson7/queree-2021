@@ -20,7 +20,7 @@
                     <h5>Find Us <span class="ion-ios-plus-empty"></span></h5>
 
                     <ul class="contact">
-                        <li>Matthew House,</li>
+                        <li>Mathew House,</li>
                         <li>Gorey Village,</li>
                         <li>Jersey,</li>
                         <li>Channel Islands, JE3 9EP</li>
