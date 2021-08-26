@@ -28987,7 +28987,7 @@ header.header .header__main .header__cta .header__menu ul li a i {
   }
 }
 header.header .header__main .header__cta .contact {
-  margin-bottom: 25px;
+  margin: 10px 0 15px;
 }
 @media (max-width: 1024px) {
   header.header .header__main .header__cta .contact {

@@ -365,7 +365,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
             }
 
             .contact{
-                margin-bottom: 25px;
+                margin: 10px 0 15px;
                 @include breakpoint(papabear) { margin-right: 30px; margin-bottom: 0;}
                 @include breakpoint(teenbear) {display: none;}
 
